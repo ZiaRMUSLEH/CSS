@@ -1,0 +1,35 @@
+tr{
+    background-color: gray;
+    height: 4ch;
+    margin: 20px;
+    width: 150px;
+    text-align: center;
+    
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+
+table{
+    text-align: center;
+}
+
+div {
+    
+    background-color: gray;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+}
+.active1{
+    background-color: black ;
+    color: white;
+
+}

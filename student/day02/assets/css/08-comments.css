@@ -1,0 +1,8 @@
+h1{
+    color: red;
+    text-align: center;
+    /* if you want to write CSS properties in a shorter way, you can use the first Letter of their name.
+
+    i.e: tac instead if text-align: center;
+    */
+}
