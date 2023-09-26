@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+
+nav ul li{
+    color: red; 
+}
+
+li{
+    color: blue;
+}
+
+nav.navbar ul li{
+    color: green;
+}

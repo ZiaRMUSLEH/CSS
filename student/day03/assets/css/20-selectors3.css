@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+
+
+.container {
+    height: 600px;
+    background-color: rgb(89, 89, 241);
+  
+}
+
+.box1, 
+.box2, 
+.box3, 
+.box4 {
+    height: 100px;
+    width: 100px;
+    margin: 10px auto;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: yellow;
+}
+
+.box4{
+    background-color: purple;
+}
