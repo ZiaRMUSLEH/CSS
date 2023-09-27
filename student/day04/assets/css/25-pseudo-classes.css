@@ -1,0 +1,109 @@
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+
+h1:active{
+    color: blue;
+}
+
+button{
+    background-color: rgb(71, 71, 253);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(134, 134, 247);
+   
+}
+
+li:first-child{
+    color: brown;
+}
+
+a:first-child{
+    color: red;
+}
+
+a:last-child{
+color: greenyellow;
+}
+
+a:last-child::before{
+    content: "THIS IS";
+    color: red;
+}
+
+a:last-child::after{
+    content: "BYE";
+    color: red;
+}
+
+
+li:nth-child(1)::marker{
+    color: yellowgreen;
+}
+
+li:nth-child(5){
+    color: brown;
+}
+
+p:nth-child(odd){
+    color: brown;
+}
+
+p:nth-child(even){
+    color: green;
+}
+table thead{
+    background-color: black;
+    color: white;
+
+}
+
+table thead th {
+    width: 200px;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: rgb(61, 120, 197);
+}
+
+table tbody tr:nth-child(even){
+    background-color: rgb(207, 132, 176);
+}
+
+h1::first-letter{
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.firstP::first-letter{
+    font-size: 30px;
+    color: red;
+}
+
+.loremText::first-line{
+    color: red;
+}
+
+.loremText::selection{
+    background-color: blue;
+    color: white;
+}
+
+button::first-letter{
+    font-size: 50px;
+}
+
+button:nth-child(6){
+    color: coral;
+}
+

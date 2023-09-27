@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.dropdown-menu{
+    display: inline-block;
+}
+
+.dropdown-menu ul  {
+
+   background-color: gray;
+   margin: 0;
+   padding: 0;
+   list-style-position: inside;
+   padding-left: 5px;
+   color: white;
+   display: none;
+     
+}
+
+.dropdown-menu:hover ul{
+    display: block;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+}

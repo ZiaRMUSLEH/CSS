@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+
+nav {
+  background-color: rgb(231, 185, 32);
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a::after {
+  content: " |";
+  color: rgb(133, 90, 11);
+  margin-left: 20px;
+}
+
+nav ul li:last-child a::after {
+  content: " 🞂";
+  color: black;
+  font-size: 0.8rem;
+}
+
+nav ul li:first-child a::before {
+  content: "🞀 ";
+  color: black;
+  font-size: 0.8rem;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+nav ul li a:hover {
+  color: black;
+}
