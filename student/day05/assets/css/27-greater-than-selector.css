@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+
+
+
+.box p {
+color: green;
+}
+
+.box1 > p {
+    color: blue;
+}

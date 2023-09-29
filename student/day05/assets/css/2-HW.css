@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+  color: purple;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(56, 55, 55);
+  margin-left: 100px;
+}
+
+.box1,
+.box2,
+.box3 {
+  height: 10px;
+  width: 80px;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  margin-left: 9px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.menu-container {
+  background-color: rgb(155, 154, 154);
+  margin-top: 10px;
+  margin-left: 100px;
+  display: none;
+}
+
+
+
+tr {
+
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+
+
+.label1, .label2, .label3 {
+    color: black;
+    margin-right: 25px;
+}
+
+.active {
+  background-color: rgb(75, 74, 74);
+}
+
+
+
+
+
+#checkbox:checked + .menu-container {
+  display: inline-block;
+}
+
+#checkbox {
+  display: none;
+}

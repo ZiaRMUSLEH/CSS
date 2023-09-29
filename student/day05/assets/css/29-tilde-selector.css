@@ -1,0 +1,21 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+.container {
+    color: red;
+
+}
+
+.container + a{
+    color: chocolate;
+    font-weight: bold;
+}
+
+.container ~ a {
+    text-decoration: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+
+}

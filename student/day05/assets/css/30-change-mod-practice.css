@@ -1,0 +1,39 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+.box {
+    background-color: violet;
+    width: 200px;
+    height: 50px;
+}
+
+
+#changeMod {
+    display: none;
+}
+
+
+
+#changeMod + .box {
+    background-color: green;
+}
+
+
+#changeMod:checked + .box {
+    background-color: rgb(36, 50, 243);
+}
+
+label{
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+label:hover{
+    font-style: italic;
+}
+
+

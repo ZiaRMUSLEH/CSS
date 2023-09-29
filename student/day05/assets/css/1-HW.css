@@ -1,0 +1,18 @@
+* {}
+h2 {}
+.section-header{}
+.section-header h2 {}
+body :nth-child(3) {}
+.top-bar img {}
+nav .top-bar a {}
+.social-media a {}
+nav section li {}
+.top-bar + section {}
+img + .box span {}
+.top-bar nav li ~ li {}
+.reference .box:hover img {}
+.service .box h3::before {}
+.top-bar li:nth-child(3):hover a::after{}
+.top-bar li:first-child:hover + li a {}
+
+
