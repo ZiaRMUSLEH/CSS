@@ -1,9 +1,10 @@
-h1{
+h1 {
     color: violet;
     text-align: center;
+    font-size: 3rem;
 }
 
-section h2{
+section h2 {
     font-size: 2rem;
 }
 
@@ -12,9 +13,9 @@ section p {
     text-align: justify;
 }
 
-.parallax-container{
+.parallax-container {
     height: 500px;
-    background-image: url(../img/kena1.png);
+    background-image: url("../img/kena2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;

@@ -1,16 +1,16 @@
-*{
+* {
     color: red;
 }
 
-p{
+p {
     color: blue;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-#btnHere{
+#btnHere {
     background-color: black;
     color: white;
 }

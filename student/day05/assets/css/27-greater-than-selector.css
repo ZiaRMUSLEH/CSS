@@ -1,15 +1,16 @@
-h1{
-    text-align: center;
+h1 {
     color: red;
+    text-align: center;
 }
-
-
-
 
 .box p {
-color: green;
+    color: blue;
 }
 
-.box1 > p {
-    color: blue;
+.box2 > p {
+    color: green;
+}
+
+.box3 > p {
+    color: orange;
 }

@@ -1,48 +1,48 @@
 h1 {
-  text-align: center;
-  color: red;
+    color: red;
+    text-align: center;
 }
 
-nav {
-  background-color: rgb(231, 185, 32);
+.menu-container {
+    background-color: rgb(246, 197, 107);
 }
 
-nav ul {
-  list-style-type: none;
-  padding-left: 0;
-  text-align: center;
+.menu-container ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
 }
 
-nav ul li {
-  margin: 0 10px;
-  display: inline-block;
+.menu-container ul li {
+    display: inline-block;
+    margin: 0 10px;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: white;
+.menu-container ul li a {
+    text-decoration: none;
+    color: white;
 }
 
-nav ul li a::after {
-  content: " |";
-  color: rgb(133, 90, 11);
-  margin-left: 20px;
+.menu-container ul li a::after {
+    content: " |";
+    color: rgb(165, 85, 42);
+    margin-left: 20px;
 }
 
-nav ul li:last-child a::after {
-  content: " 🞂";
-  color: black;
-  font-size: 0.8rem;
+.menu-container ul li:last-child a::after {
+    content: " ▶";
+    color: black;
+    font-size: 0.8rem;
 }
 
-nav ul li:first-child a::before {
-  content: "🞀 ";
-  color: black;
-  font-size: 0.8rem;
-  margin-left: 0;
-  margin-right: 20px;
+.menu-container ul li:first-child a::before {
+    content: "◀ ";
+    color: black;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    margin-left: 0px;
 }
 
-nav ul li a:hover {
-  color: black;
+.menu-container ul li a:hover {
+    color: black;
 }

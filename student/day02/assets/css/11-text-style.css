@@ -1,15 +1,14 @@
-h1{
+h1 {
     color: red;
     text-align: center;
 }
 
-p{
+p {
     text-decoration: line-through;
     font-style: italic;
-
 }
 
-a{
+a {
     text-decoration: none;
     font-style: italic;
     font-weight: 600;

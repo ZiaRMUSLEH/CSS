@@ -1,109 +1,110 @@
-
-h1{
-    text-align: center;
+h1 {
     color: red;
+    text-align: center;
 }
 
-
-h1:active{
+h1:active {
     color: blue;
 }
 
-button{
-    background-color: rgb(71, 71, 253);
-    color: white;
+h1:hover {
+    color: green;
+}
+
+#checkbox:checked ~ label {
+    background-color: red;
+}
+
+button {
+    background-color: rgb(47, 47, 255);
     border: none;
-    border-radius: 5px;
-    padding: 10px;
+    color: white;
     display: inline-block;
+    border-radius: 5px;
+    width: 200px;
     cursor: pointer;
 }
 
-button:hover{
-    background-color: rgb(134, 134, 247);
-   
+button:hover {
+    background-color: rgb(74, 74, 255);
 }
 
-li:first-child{
-    color: brown;
-}
-
-a:first-child{
+a:first-child {
     color: red;
 }
 
-a:last-child{
-color: greenyellow;
+a:last-child {
+    color: greenyellow;
 }
 
-a:last-child::before{
-    content: "THIS IS";
+a:last-child::before {
+    content: "HELLOOOOO";
     color: red;
 }
 
-a:last-child::after{
-    content: "BYE";
+a:last-child::after {
+    content: "BYEEEEEE";
+    color: rgb(255, 82, 47);
+}
+
+li:nth-child(1) {
+    color: brown;
+    font-weight: 600;
+}
+
+li:nth-child(1)::marker {
+    color: rgb(255, 111, 0);
+    font-size: 30px;
+}
+
+a:nth-child(5) {
+    color: brown;
+    font-weight: 600;
+}
+
+.paragraphs p:nth-child(odd) {
     color: red;
 }
 
-
-li:nth-child(1)::marker{
-    color: yellowgreen;
+.paragraphs p:nth-child(even) {
+    color: rgb(4, 201, 4);
 }
 
-li:nth-child(5){
-    color: brown;
-}
-
-p:nth-child(odd){
-    color: brown;
-}
-
-p:nth-child(even){
-    color: green;
-}
-table thead{
+table thead {
     background-color: black;
     color: white;
-
 }
 
 table thead th {
     width: 200px;
 }
 
-table tbody tr:nth-child(odd){
-    background-color: rgb(61, 120, 197);
+table tbody tr:nth-child(odd) {
+    background-color: rgb(193, 224, 251);
 }
 
-table tbody tr:nth-child(even){
-    background-color: rgb(207, 132, 176);
+table tbody tr:nth-child(even) {
+    background-color: rgb(255, 206, 189);
 }
 
-h1::first-letter{
+h1::first-letter {
     font-size: 50px;
-    color: blueviolet;
+    color: darkorchid;
 }
 
-.firstP::first-letter{
-    font-size: 30px;
-    color: red;
-}
-
-.loremText::first-line{
-    color: red;
-}
-
-.loremText::selection{
-    background-color: blue;
-    color: white;
-}
-
-button::first-letter{
-    font-size: 50px;
-}
-
-button:nth-child(6){
+button:nth-child(6) {
     color: coral;
 }
 
+button::first-letter {
+    font-size: 50px;
+}
+
+.lorem-text::first-line {
+    color: red;
+}
+
+.lorem-text::selection {
+    background-color: rgb(11, 11, 11);
+    color: red;
+}

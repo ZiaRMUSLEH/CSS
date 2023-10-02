@@ -1,9 +1,10 @@
 * {
-  font-family: "Roboto", "sans-serif";
+    font-family: "Roboto", sans-serif;
 }
+
 h1 {
-  color: red;
-  text-align: center;
+    color: red;
+    text-align: center;
 }
 
 .menu-container {
@@ -14,40 +15,32 @@ h1 {
 }
 
 a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 400;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .menu-item {
     padding: 20px 50px;
+    background-color: rgb(216, 216, 216);
     text-align: start;
-    background-color: rgb(157, 159, 161);
     cursor: pointer;
-  }
+}
+
 .active {
-  background-color: rgb(92, 92, 92);
+    background-color: rgb(9, 9, 9);
 }
 
 .active a {
-  color: white;
+    color: white;
 }
+
 .menu-item:hover {
-    background-color: blue;
-  }
+    color: red;
+    background-color: violet;
+}
 
 .menu-item:hover a {
     color: white;
-  }
-
-:link {
-  color: black;
-  text-decoration: none;
 }
-
-:visited {
-  color: black;
-}
-
-

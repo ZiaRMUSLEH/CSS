@@ -1,48 +1,43 @@
-:root{
+:root {
     font-size: 30px;
 }
-h1{
-    text-align: center;
+
+h1 {
     color: red;
+    text-align: center;
 }
 
-img{
+img {
     width: 50%;
 }
 
-.container{
-    width: 1000px;
-    height: 500px ;
+.container {
+    width: 75%;
+    height: 500px;
     background-color: red;
 }
 
-.box{
+.box {
     width: 50%;
     height: 50%;
     background-color: blue;
 }
 
-.container2{
+.container2 {
     margin-top: 20px;
     width: 75vw;
-    height: 50vh ;
+    height: 50vh;
     background-color: violet;
 }
 
-.box2{
-    width: 50vw;
-    height: 50vh;
-    background-color: blue;
-}
-
-.text{
+.text {
     font-size: 50px;
 }
 
-p{
+p {
     font-size: 2em;
 }
 
-.rem{
-font-size: 2rem;
+.rem {
+    font-size: 2rem;
 }

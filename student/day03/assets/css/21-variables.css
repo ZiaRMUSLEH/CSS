@@ -1,30 +1,33 @@
-:root{
-    --clr-blue: rgb(60, 255, 0);
-    --clr-orange: rgb(233, 113, 44);
+:root {
+    --clr-blue: rgb(0, 148, 20);
+    --clr-orange: rgb(255, 0, 0);
 }
 
-
-h1{
+h1 {
     color: red;
     text-align: center;
 }
 
-.paragraph1{
+.paragraph1 {
     color: var(--clr-blue);
 }
 
-.paragraph2{
-    color: var(--clr-orange);
-}
-.paragraph3{
+.paragraph2 {
     color: var(--clr-blue);
 }
-.paragraph4{
+
+.paragraph3 {
     color: var(--clr-orange);
 }
-.paragraph5{
+
+.paragraph4 {
+    color: var(--clr-orange);
+}
+
+.paragraph5 {
     color: var(--clr-blue);
 }
-.paragraph6{
+
+.paragraph6 {
     color: var(--clr-orange);
 }

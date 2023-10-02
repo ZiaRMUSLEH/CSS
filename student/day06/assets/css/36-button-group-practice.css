@@ -1,44 +1,42 @@
-h1{
-    text-align: center;
+h1 {
     color: red;
-}
-
-
-.button-container{
-    display: flex;
-    font-family: sans-serif;
-    font-weight: bold;
-    gap: 5px;
-    justify-content: center;
-    
-}
-
-.button1,
-.button2,
-.button3,
-.button4 {
-    background-color: rgb(5, 5, 134);
-    padding: 10px 20px;
-    color: rgb(94, 214, 94);
     text-align: center;
-    border: 5px solid rgb(94, 214, 94);
-    border-radius: 10px;
 }
 
-.button1{
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 
-.button4{
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.button-container div:hover{
-    color: rgb(163, 250, 163);
-    border: 5px solid  rgb(163, 250, 163);
-    background-color:blue ;
+.button-group div {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(1, 15, 105);
+    color: rgb(82, 255, 47);
+    font-weight: bold;
     cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid rgb(82, 255, 47);
+    /* border-width: 5px; */
+    /* border-style: solid; */
+    /* border-color: rgb(82, 255, 47); */
+    justify-content: center;
+    align-items: center;
 }
 
+.button-group div:first-child {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.button-group div:last-child {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.button-group div:hover {
+    background-color: orange;
+    border-color: red;
+}

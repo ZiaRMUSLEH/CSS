@@ -1,21 +1,15 @@
-h1{
+h1 {
     color: blue;
     text-align: center;
 }
 
-.container {
-    color: red;
-
-}
-
-.container + a{
+div.container + a {
     color: chocolate;
     font-weight: bold;
 }
 
-.container ~ a {
+div.container ~ a {
     text-decoration: none;
-    margin-right: 10px;
     text-transform: uppercase;
-
+    margin-right: 10px;
 }
