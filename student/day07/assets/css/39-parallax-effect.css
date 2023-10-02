@@ -1,0 +1,22 @@
+h1{
+    color: violet;
+    text-align: center;
+}
+
+section h2{
+    font-size: 2rem;
+}
+
+section p {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.parallax-container{
+    height: 500px;
+    background-image: url(../img/kena1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
